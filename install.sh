@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "Installing dependencies..."
-npm i express mongoose dotenv cors morgan multer bcrypt jsonwebtoken cookie-parser 
-echo "Installing dev dependencies..."
-npm i -D nodemon prettier eslint eslint-config-prettier eslint-plugin-prettier
+echo "Basic Installation MERN Stack"
+echo "=========================================="
+echo "This script will install the following: express mongoose cors dotenv nodemon morgan multer cookie-parser bcrypt jsonwebtoken"
+npm i express mongoose cors dotenv nodemon morgan multer cookie-parser bcrypt jsonwebtoken
+echo "Installation Complete"
